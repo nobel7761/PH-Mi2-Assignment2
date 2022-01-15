@@ -427,6 +427,10 @@ footer small{
         row-gap: 30px;
         text-align: center;
     }
+
+    .product img{
+        width: 100%;
+    }
     .customized-section{
         width: 95%;
         margin-top: 100px;
@@ -586,6 +590,10 @@ footer small{
         column-gap: 30px;
         row-gap: 30px;
         text-align: center;
+    }
+
+    .product img{
+        width: 100%;
     }
 
     .see-more a{
