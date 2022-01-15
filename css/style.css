@@ -18,7 +18,6 @@ a{
 
 /* animation-section */
 .animated-title {
-    
     width: 17ch;
     animation: typing 1s steps(30), blink .5s step-end infinite alternate;
     white-space: nowrap;
@@ -255,10 +254,12 @@ small{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.left-section{
+    width: 40%;
+}
 
 iframe{
-    width: 40%;
+    width: 100%;
     border-radius: 30px;
 }
 
@@ -334,3 +335,333 @@ footer small{
     cursor: pointer;
 }
 
+
+/* mobile view  */
+@media screen and  (max-width: 500px) {
+    body{
+        margin-top: 20px;
+    }
+    /* nav-section */
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-right{
+        margin-top: 10px;
+    }
+    .header-right a{
+        color: #E02C6D;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .header-right i{
+        color: #E02C6D;
+        margin-left: 10px;
+    }
+    /* top-section */
+    .top{
+        width: 95%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .half-width{
+        width: 100%;
+    }
+
+    .top-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .top-left h1{
+        font-size: 35px;
+        font-weight: 700;
+        color: black;
+    }
+    .top-left p{
+        margin-top: 20px;
+        font-weight: 500;
+        color: black;
+        text-align: justify;
+        
+    }
+
+    .btn{
+        margin-top: 20px;
+    }
+
+    .top-right img{
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .brand-icon{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .logo-section{
+        padding: 20px 15px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+
+    .logo-section img{
+        width: 80%;
+    }
+
+    /* product-section */
+    .product-collection{
+        width: 95%;
+        margin-top: 70px;
+    }
+    .products{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+        text-align: center;
+    }
+    .customized-section{
+        width: 95%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .left-section{
+        width: 100%;
+    }
+    .right-section{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+
+    .right-section h5{
+        margin-top: 40px;
+        text-align: justify;
+    }
+    .join-now{
+        margin-top: 40px;
+    }
+
+    footer{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet view  */
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+    body{
+        margin-top: 40px;
+    }
+    /* nav-section */
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-left h2{
+        font-size: 50px;
+    }
+    .header-right{
+        margin-top: 15px;
+    }
+    .header-right i{
+        font-size: 35px;
+        margin-left: 10px;
+        color: #E02C6D;
+    }
+    .header-right a {
+        color: #E02C6D;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    /* top-section */
+    .top{
+        width: 95%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .half-width{
+        width: 100%;
+    }
+
+    .top-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .top-left h1{
+        font-size: 45px;
+        font-weight: 700;
+        color: black;
+    }
+    .top-left p{
+        margin-top: 20px;
+        font-weight: 500;
+        color: black;
+        text-align: justify;
+        font-size: 35px;
+    }
+
+    .btn{
+        margin-top: 30px;
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .top-right img{
+        margin-top: 30px;
+        width: 70%;
+    }
+
+    .brand-icon{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .logo-section{
+        padding: 20px 0 25px 45px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 10px;
+        row-gap: 30px;
+    }
+
+    .logo-section img{
+        width: 60%;
+    }
+
+    /* product-section */
+    .product-collection{
+        width: 95%;
+        margin-top: 40px;
+    }
+    .product-collection h2{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .products{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+        text-align: center;
+    }
+
+    .see-more a{
+        color: rgba(224, 44, 109, 0.87);
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+    .see-more i{
+        font-size: 30px;
+    }
+    .customized-section{
+        width: 95%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .right-section{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .right-section h2{
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+
+    .right-section h5{
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 30px;
+        color: black;
+    }
+    .join-now{
+        margin-top: 40px;
+        width: 250px;
+        padding: 20px 50px;
+    }
+
+    .join-now a{
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    footer{
+        margin-top: 40px;
+    } 
+
+    footer h3{
+        font-size: 40px;
+    }
+
+    footer small{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .social-icons{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .social-icons i{
+        font-size: 35px;
+        padding: 20px;
+    }
+}
