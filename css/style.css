@@ -19,7 +19,7 @@ a{
 /* animation-section */
 .animated-title {
     width: 17ch;
-    animation: typing 1s steps(30), blink .5s step-end infinite alternate;
+    animation: typing 1s steps(25), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 10px solid;
@@ -277,9 +277,9 @@ iframe{
 
 .right-section h5{
     font-size: 16px;
-    font-weight: 700;
-    line-height: 28px;
-    color: #6C6C6C;
+    font-weight: 500;
+    text-align: justify;
+    color: black;
 }
 
 .join-now{
@@ -362,7 +362,7 @@ footer small{
     /* top-section */
     .top{
         width: 95%;
-        margin-top: 30px;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
     }
@@ -382,11 +382,11 @@ footer small{
         color: black;
     }
     .top-left p{
-        margin-top: 20px;
-        font-weight: 500;
+        margin-top: 18px;
         color: black;
         text-align: justify;
-        
+        font-size: 16px;
+        font-weight: 500;
     }
 
     .btn{
@@ -433,7 +433,7 @@ footer small{
     }
     .customized-section{
         width: 95%;
-        margin-top: 100px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
 
@@ -518,7 +518,7 @@ footer small{
     /* top-section */
     .top{
         width: 95%;
-        margin-top: 30px;
+        margin-top: 70px;
         display: flex;
         flex-direction: column;
     }
@@ -607,7 +607,7 @@ footer small{
     }
     .customized-section{
         width: 95%;
-        margin-top: 100px;
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
     }
