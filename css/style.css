@@ -255,6 +255,13 @@ small{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+iframe{
+    width: 40%;
+    border-radius: 30px;
+}
+
 .right-section{
     width: 55%;
     display: flex;
@@ -287,6 +294,8 @@ small{
     font-weight: 700;
 }
 
+
+/* footer section  */
 footer{
     margin-top: 100px;
     background-color: #0A0826;
@@ -324,3 +333,4 @@ footer small{
     margin-right: 10px;
     cursor: pointer;
 }
+
